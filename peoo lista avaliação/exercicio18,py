@@ -1,0 +1,14 @@
+while True:
+    
+    valor = float(input("Digite um valor (negativo ou zero para encerrar): "))
+
+
+    if valor <= 0:
+        print("Programa encerrado.")
+        break
+
+    quadrado = valor ** 2
+    cubo = valor ** 3
+    raiz_quadrada = valor ** 0.5
+
+    print(f"Valor: {valor}\nQuadrado: {quadrado}\nCubo: {cubo}\nRaiz Quadrada: {raiz_quadrada}\n")
